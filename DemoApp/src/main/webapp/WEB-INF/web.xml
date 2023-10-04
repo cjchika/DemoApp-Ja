@@ -9,4 +9,14 @@
   	<servlet-name>new</servlet-name>
   	<url-pattern>/add</url-pattern>
   </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>newsqr</servlet-name>
+  	<servlet-class>com.cjchika.SqrServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>newsqr</servlet-name>
+  	<url-pattern>/sqr</url-pattern>
+  </servlet-mapping>
 </web-app>
